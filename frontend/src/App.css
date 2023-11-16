@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --main-purple: #140C9F;
+    --main-purple-light: #2A1A92;
+    --main-purple-dark: ##20244B;
+    --main-purple-darker: #0A0845;
+    --main-white: #FAF8F8;
+    --main-white-light: #F2F2F2;
+    --main-orange: #EE771E;
+    --main-orange-light: #F2A03D;
+    --main-red: #C1051F;
+    --main-black: #000;
+    --main-grey: #E9E9E9;
+    --main-grey-light: #686B6E;
+    --main-blue: #40B6E9;
+    --main-black-light: #2E2E2E;
+}
+
+.main-purple {
+    color: var(--main-purple);
+}
+
+.white {
+    color: var(--main-white);
+}
+
+.purple {
+    color: var(--main-purple-dark);
+}
+
+.black {
+    color: var(--main-black);
+}
+
+.red {
+    color: var(--main-red);
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bold-purple {
+    font-weight: 700;
+}
+
+.bold-purple:hover {
+    color: var(--main-white);
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body {
+        position: relative
+    }
+
+
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+.button-purple {
+    background-color: var(--main-purple);
+    color: var(--main-white);
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    border: 1px solid var(--main-white);
+}
+
+.button-purple:hover {
+    background-color: var(--main-white);
+    color: var(--main-purple);
+    border: 1px solid var(--main-purple);
+}
+
+.button-white {
+    background-color: var(--main-white);
+    color: var(--main-red);
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid var(--main-red);
+}
+
+.button-white:hover {
+    background-color: var(--main-red);
+    color: var(--main-white);
+    border: 1px solid var(--main-black-light);
+}
+
+.button-blue {
+    background-color: var(--main-blue);
+    color: var(--main-purple);
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+.button-blue:hover {
+    background-color: var(--main-white);
+    color: var(--main-purple);
+}
+
+.button-white-bottom-border {
+    background-color: var(--main-white);
+    color: var(--main-red);
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    border-bottom: 1px solid var(--main-red);
+}
+
+.button-white-bottom-border:hover {
+    background-color: var(--main-red);
+    color: var(--main-white);
+    border: none;
+    border-bottom: 1px solid var(--main-white);
+}
+
+.input-white-bottom-border {
+    background-color: var(--main-white);
+    color: var(--main-purple);
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    border-bottom: 1px solid var(--main-purple);
+}
+
+.input-white-bottom-border::placeholder {
+    color: var(--main-purple);
+}
+
+.input-white-bottom-border:focus {
+    background-color: var(--main-purple);
+    color: var(--main-white);
+    border: none;
+    border-bottom: 1px solid var(--main-white);
+}
+
+.button-grey-bottom-border {
+    background-color: var(--main-grey);
+    color: var(--main-red);
+    padding: 10px 20px 10px 0px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    border-bottom: 1px solid var(--main-red);
+}
+
+.button-grey-bottom-border:hover {
+    color: var(--main-black);
+    border-bottom: 1px solid var(--main-black);
+}
+
+.button-red {
+    background-color: var(--main-red);
+    color: var(--main-white);
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid var(--main-red);
+}
+
+.button-red:hover {
+    background-color: var(--main-white);
+    color: var(--main-red);
+    border: 1px solid var(--main-black-light);
+}
+
+.button-documentos {
+    background-color: var(--main-white);
+    color: var(--main-black);
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid var(--main-black);
+    position: relative;
+    width: 100%;
+
+}
+
+.button-grey {
+    background-color: var(--main-grey);
+    color: var(--main-grey-light);
+
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+.button-grey:hover {
+    background-color: var(--main-black);
+    color: var(--main-white);
+}
+
+.button-black {
+    background-color: var(--main-black-light);
+    color: var(--main-white);
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+.button-white-file {
+    background-color: var(--main-white);
+    border: none;
+    text-align: start;
+}
+
+.button-white-file:hover {
+    cursor: pointer;
+}
+
+.button-text {
+    display: flex;
+    justify-content: center;
+}
+
+.documento-actions {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translateY(-50%);
+    color: var(--main-black);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    gap: '20px';
+
+}
+
+.button-documentos:hover {
+    .button-text {
+        opacity: 0.2;
+    }
+
+    .documento-actions {
+        opacity: 1
+    }
+}
+
+.small {
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+.no-border {
+    border: none;
+    padding: 0;
+    font-weight: 400;
+}
+
+.no-border:hover {
+    border: none;
+    padding: 0;
+    color: #C1051F;
+}

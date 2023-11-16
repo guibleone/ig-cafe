@@ -1,0 +1,110 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--main-black-light);
+    box-sizing: border-box;
+}
+
+.links-centrais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    color: #fff;
+
+}
+
+.links {
+    text-decoration: none;
+    color: #fff;
+    font-size: '16px';
+}
+
+.links:hover {
+    color: var(  --main-red);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
+.sair{
+    text-decoration: none;
+    color: var(--main-purple-darke);
+}
+
+.sair:hover {
+    color: var(--main-purple-dark);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.actions {
+    display: flex;
+    gap: 5px;
+}
+
+.actions input {
+    background-color: var(--main-wh);
+    color: var(--main-purple);
+    border: none;
+    width: 100%;
+    border: var(--main-wh) 1px solid;
+    padding: 5px;
+}
+
+.actions input::placeholder {
+    color: var(--main-purple);
+}
+
+.actions input:focus {
+    border: var(--main-purple) 1px solid;
+
+}
+
+.pesquisar {
+    display: flex;
+    width: 100%;
+}
+
+.pesquisar .icon {
+    color: var(--main-purple);
+}
+
+/* Dropdown.css */
+.dropdown {
+    position: relative;
+display: 'flex';
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--main-black-light);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    left: 0px;
+}
+
+.link-content {
+    text-decoration: none;
+    color: var(--main-purple);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.link-content:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

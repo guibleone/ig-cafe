@@ -1,0 +1,189 @@
+.box{
+    background-color: #FAF8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 160px;
+}
+
+.text-side-produto {
+    color: #140C9F;
+    max-width: 504px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    margin-bottom: 150px;
+}
+
+.text-side h1{
+    font-weight: 900;
+}
+
+.text-side h4{
+    font-weight: 600;
+}
+
+.rastrear-produto{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.rastrear-produto input{
+    color: #000000;
+    width: 80%;
+    border: #000000 1px solid;
+    padding: 15px;
+}
+
+.rastreio-img{
+    width: 20%;
+    align-self: auto;
+}
+
+
+
+.error{
+    color: #D0302F;
+    width: 80%;
+    display: flex; 
+}
+
+.menssagem{
+    display: flex;
+    font-size: 14px;
+    gap: 15px;
+    align-items: center;
+}
+
+/* container da busca por código */
+.rastreio-lado {
+    margin-bottom: 100px;
+}
+
+/* Styles for product display */
+
+.box-produto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0;
+    background-color: #FAF8F8;
+}
+
+.produtos-information {
+    display: flex;
+    flex-direction: column;
+    max-width: 465px;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+.produto-esquerdo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    padding: 50px;
+    height: 500px;
+}
+
+.check-mark {
+    position: absolute;
+    top: 0px;
+    right: 30%;
+    z-index: 1;
+    width: 150px;
+}
+
+
+.foto-produtor {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    bottom: 10px;
+    left: 0px;
+    object-fit: cover;
+}
+
+/* Styles for screens up to 768px (typical mobile screens) */
+@media (max-width: 768px) {
+    .box {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        padding: 80px 20px; /* Adjust padding for mobile *//* Center align text content */
+    }
+
+    .text-side-produto {
+        max-width: 100%; /* Make it full width for mobile */
+        margin-bottom: 50px; /* Adjust margin for mobile */
+    }
+
+    .text-side-produto h1 {
+        font-size: 26px; /* Reduce font-size for mobile */
+    }
+
+    .text-side-produto h4 {
+        font-size: 14px; /* Reduce font-size for mobile */
+    }
+
+    .rastrear-produto input {
+       width: 100%;
+    }
+    .rastreio-img{
+        width: auto;
+    }
+
+    .rastreio-lado {
+       /* Adjust padding for mobile */
+/* Adjust margin for mobile */
+margin-left: auto;
+    }
+
+    .rastrear-produto{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .box-produto {
+        flex-direction: column;
+        padding: 60px 0;
+    }
+
+    .produto-esquerdo {
+        padding-top: 160px;
+    }
+
+    .check-mark {
+        top: 0px;
+        left: 250px; /* Adjust top position for smaller screens */
+        width: 100px;
+        z-index: 4;
+    }
+    .foto-produto{
+        width: 150px;
+        height: 150px;
+        z-index: 3;
+    }
+
+
+    .foto-produtor {
+        width: 80px; /* Adjust width for smaller screens */
+        height: 80px; /* Adjust height for smaller screens */
+        top: 200px; /* Adjust top position for smaller screens */
+        left: 35px; /* Adjust left position for smaller screens */
+    }
+
+    .produtos-information{
+        gap:16px;
+    }
+
+    .nome, .sobre, .sobre-production {
+        font-size: 90%; /* Adjust font-size for smaller screens */
+    }
+    
+}
