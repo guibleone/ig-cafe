@@ -27,7 +27,7 @@ const TermsAcceptanceDialog = ({ open, handleOpen }) => {
                 <br />
 
                 <p>
-                    Para a Associação de Produtores de Cachaça de Alambique do Circuito das Águas Paulista (ACECAP) é muito importante que você saiba como tratamos os seus dados pessoais. Por esse motivo, gostaríamos de ter o seu consentimento para armazenarmos e utilizarmos, com toda a segurança e privacidade, seus dados pessoais e empresariais para que possamos:
+                    Para a Associação dos Produtores de Cafés Especiais do Circuito das Águas Paulista (ACECAP) é muito importante que você saiba como tratamos os seus dados pessoais. Por esse motivo, gostaríamos de ter o seu consentimento para armazenarmos e utilizarmos, com toda a segurança e privacidade, seus dados pessoais e empresariais para que possamos:
                 </p>
 
                 <br />

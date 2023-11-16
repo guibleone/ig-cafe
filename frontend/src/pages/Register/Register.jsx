@@ -328,7 +328,7 @@ function Register() {
 
                 <p >
                   Para você que é um produtor, cumpre com os <br />
-                  <Link to={'/quem-somos#associar'} style={{ color: '#C1051F', fontWeight: 700, textDecorationColor: '#C1051F' }} >requisitos</Link> e deseja utilizar nossos selos.
+                  <Link to={'https://acecapcafe.com.br/artigos-3/'} style={{ color: '#C1051F', fontWeight: 700, textDecorationColor: '#C1051F' }} >requisitos</Link> e deseja utilizar nossos selos.
                 </p>
               </div>
             </Grid>
@@ -1073,7 +1073,7 @@ function Register() {
                     Tornar-se um associado ?
                   </Typography>
 
-                  <Link to='/quem-somos#associar' style={{ color: '#C1051F', fontWeight: 700, textDecorationColor: '#C1051F' }}>
+                  <Link to='https://acecapcafe.com.br/artigos-3/' style={{ color: '#C1051F', fontWeight: 700, textDecorationColor: '#C1051F' }}>
 
                     Saiba mais
 
