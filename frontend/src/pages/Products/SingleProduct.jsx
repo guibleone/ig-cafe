@@ -158,7 +158,7 @@ function SingleProduct() {
                             <h3 className='regular black'>
                                 Edite as informações do produto
                             </h3>
-                            {productData.selo ? <h3 className='regular ' style={{ textAlign: 'center'}}>{`${productData.selo && productData.selo.startSelo} - ${productData.selo && productData.selo.endSelo}`}</h3> : ''}
+                            {productData.selo ? <h3 className='regular black ' style={{ textAlign: 'center'}}>{`${productData.selo && productData.selo.startSelo} - ${productData.selo && productData.selo.endSelo}`}</h3> : ''}
 
 
                         </div>
@@ -170,7 +170,7 @@ function SingleProduct() {
                     <Grid item xs={12}>
                         <h3
                             style={{
-                                fontWeight: 540, color: '#140C9F', borderBottom: '3px solid #140C9F', width: matches ? '100%' : '270px',
+                                fontWeight: 540, color: '#C1051F', borderBottom: '3px solid #C1051F', width: matches ? '100%' : '270px',
                                 textAlign: !matches ? 'left' : 'center'
                             }} >
                             Sobre o produto e o lote
@@ -205,7 +205,7 @@ function SingleProduct() {
                             paddingBottom: '30px'
                         }}>
                             <button onClick={() => navigate('/produtos')} className="button-white" >Cancelar</button>
-                            <button className='button-purple' onClick={onSubmit}
+                            <button className='button-red' onClick={onSubmit}
                                 disabled={isLoading}
                                 style={{ backgroundColor: isLoading && colors.main_white }}
                             >
@@ -225,7 +225,7 @@ function SingleProduct() {
 
                         <h3
                             style={{
-                                fontWeight: 540, color: '#140C9F', borderBottom: '3px solid #140C9F', width: matches ? '100%' : '270px',
+                                fontWeight: 540, color: '#C1051F', borderBottom: '3px solid #C1051F', width: matches ? '100%' : '270px',
                                 textAlign: !matches ? 'right' : 'center'
                             }} >
                             Foto do produto
@@ -246,13 +246,13 @@ function SingleProduct() {
                             {productData.path ?
                                 <>
                                     <TextField type="file" inputRef={fileInputRef} />
-                                    <button className='button-purple' onClick={handlePhoto} variant='contained'>Alterar</button>
+                                    <button className='button-red' onClick={handlePhoto} variant='contained'>Alterar</button>
                                 </>
 
                                 :
                                 <>
                                     <TextField type="file" inputRef={fileInputRef} />
-                                    <button className='button-purple' onClick={handlePhoto} variant='contained'>Adicionar</button>
+                                    <button className='button-red' onClick={handlePhoto} variant='contained'>Adicionar</button>
                                 </>
                             }
                             </Box>
