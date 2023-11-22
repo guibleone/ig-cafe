@@ -31,8 +31,9 @@ const PDFReunion = ({ title, message, pautas, typeReunion, date, dateConvocacao,
 
       }}>
 
-        <Image src={require('../../../../imgs/logo_cafe.png')} style={{
-          width: 100,
+        <Image src={require('../../../../imgs/logo_cafe_preto.png')} style={{
+          width: 120,
+          padding:'10px'
         }} />
 
         <View style={{
@@ -40,7 +41,7 @@ const PDFReunion = ({ title, message, pautas, typeReunion, date, dateConvocacao,
           color: colors.main_black,
           maxWidth: '45%',
           border: '2px solid #000000',
-          padding: '25px 5px 5px 5px',
+          padding: '15px 5px 5px 10px',
           maxHeight: '100px',
           alignItems: 'center',
         }}>
