@@ -374,7 +374,7 @@ function Register() {
                 required
                 fullWidth
                 id="email"
-                placeholder='appcap@gmail.com'
+                placeholder='acecap@gmail.com'
                 name="email"
                 onChange={handleChangeDadosPessoaisData} type='email' value={dadosPessoais.email}
 
