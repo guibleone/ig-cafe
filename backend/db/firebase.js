@@ -2,12 +2,12 @@ const { initializeApp } = require("firebase/app");
 const { getStorage } = require("firebase/storage");
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAmpqoo0p5yv8ppgMNRJv3lCjDo5gs756Q",
-  authDomain: "igcachaca.firebaseapp.com",
-  projectId: "igcachaca",
-  storageBucket: "igcachaca.appspot.com",
-  messagingSenderId: "622320382750",
-  appId: "1:622320382750:web:371c5a69fb9932cc850f0f"
+  apiKey: "AIzaSyDsS1VLdKvzdd9Jhqendufj2FYN42Ek3Ao",
+  authDomain: "igcafe.firebaseapp.com",
+  projectId: "igcafe",
+  storageBucket: "igcafe.appspot.com",
+  messagingSenderId: "88676271047",
+  appId: "1:88676271047:web:b6f09182b7d52b53980fe2",
 };
 
 const app = initializeApp(firebaseConfig);
