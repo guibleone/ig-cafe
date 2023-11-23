@@ -29,7 +29,9 @@ const paySelos = asyncHandler(async (req, res) => {
 
 const payMensalidade = asyncHandler(async (req, res) => {
     const URL = 'http://localhost:3000/credencial';
-    const { email, cpf } = req.body;
+    const { email, cpf,tipo } = req.body;
+
+    const price = tipo === 'Mês' && 'price_1OCqGwC3QR5s9RJ0HYjQnC8b' || tipo === 'Semestre' && 'price_1OCqGwC3QR5s9RJ0nfw3ofXP' || tipo === 'Ano' && 'price_1OCqGwC3QR5s9RJ0xKWwvWBT'
 
     try {
         // Create a customer with the provided CPF
@@ -45,7 +47,7 @@ const payMensalidade = asyncHandler(async (req, res) => {
             billing_address_collection: 'auto',
             line_items: [
                 {
-                    price: 'price_1OCqGwC3QR5s9RJ0HYjQnC8b',
+                    price: price,
                     quantity: 1,
                 },
             ],
