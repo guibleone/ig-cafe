@@ -28,7 +28,7 @@ Este website foi desenvolvido em colaboração com a Associação dos Produtores
   
 ## Como Iniciar
 
-1. Clone o repositório: `git clone https://github.com/guibleone/acecap-website`
+1. Clone o repositório: `git clone https://github.com/guibleone/https://github.com/guibleone/ig-cafe.git`
 2. Instale as dependências: `npm install`
 3. Execute o projeto: `npm start`
 
