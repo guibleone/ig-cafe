@@ -59,7 +59,7 @@ export default function Reunion() {
                                 Reuniões
                             </h1>
                             <h5 className='regular black'>
-                                Gerencie, organize e confira as reuniões da APCCAP
+                                Gerencie, organize e confira as reuniões da ACECAP
                             </h5>
                         </Box>
 

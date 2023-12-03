@@ -156,40 +156,40 @@ export default function Credencial() {
                                         <Grid item xs={12} md={3}>
                                             <Box sx={{ display: 'flex', flexDirection: 'column', gap: '10px', padding: '22px', borderRadius: '5.694px', border: '1.898px solid #000 ' }}>
                                                 <h3 className='semi-bold black'>
-                                                    Primeira Etapa
+                                                Sobre a Credencial de Produtor Associado
                                                 </h3>
                                                 <h5 className='regular black'>
-                                                    Lorem ipsum dolor sit amet consectetur. Adipiscing amet morbi bibendum senectus. Eget sed vulputate arcu.
+                                                A Credencial certifica a filiação de um indivíduo à associação de produtores. Ela confere uma série de benefícios e reconhecimentos especiais.
                                                 </h5>
                                             </Box>
                                         </Grid>
                                         <Grid item xs={12} md={3}>
                                             <Box sx={{ display: 'flex', flexDirection: 'column', gap: '10px', padding: '22px', borderRadius: '5.694px', border: '1.898px solid #000 ' }}>
                                                 <h3 className='semi-bold black'>
-                                                    Segunda Etapa
+                                                Benefícios de Ser um Produtor Associado
                                                 </h3>
                                                 <h5 className='regular black'>
-                                                    Lorem ipsum dolor sit amet consectetur. Adipiscing amet morbi bibendum senectus. Eget sed vulputate arcu.
+                                                Explore como a associação oferece uma plataforma para estabelecer contatos valiosos, facilitando colaborações entre produtores.
                                                 </h5>
                                             </Box>
                                         </Grid>
                                         <Grid item xs={12} md={3}>
                                             <Box sx={{ display: 'flex', flexDirection: 'column', gap: '10px', padding: '22px', borderRadius: '5.694px', border: '1.898px solid #000 ' }}>
                                                 <h3 className='semi-bold black'>
-                                                    Terceira Etapa
+                                                Como Tornar-se um Produtor Associado
                                                 </h3>
                                                 <h5 className='regular black'>
-                                                    Lorem ipsum dolor sit amet consectetur. Adipiscing amet morbi bibendum senectus. Eget sed vulputate arcu.
+                                                Entenda os critérios necessários para se tornar um produtor associado e garantir benefícios, incluindo requisitos de produção, éticos e outros.
                                                 </h5>
                                             </Box>
                                         </Grid>
                                         <Grid item xs={12} md={3}>
                                             <Box sx={{ display: 'flex', flexDirection: 'column', gap: '10px', padding: '22px', borderRadius: '5.694px', border: `1.898px solid ${colors.main_red} ` }}>
                                                 <h3 className='semi-bold'>
-                                                    Acesso Liberado
+                                                Se Torne Agora Mesmo um Credenciado
                                                 </h3>
                                                 <h5 className='regular'>
-                                                    Lorem ipsum dolor sit amet consectetur. Adipiscing amet morbi bibendum senectus. Eget sed vulputate arcu.
+                                                Não perca tempo! Clique agora no botão "Associar-se" e garanta sua credencial para fazer parte de uma comunidade que valoriza o seu sucesso.
                                                 </h5>
                                             </Box>
                                         </Grid>
@@ -319,7 +319,7 @@ export default function Credencial() {
                                                     Primeira Etapa
                                                 </h3>
                                                 <h5 className='regular black'>
-                                                    Lorem ipsum dolor sit amet consectetur. Adipiscing amet morbi bibendum senectus. Eget sed vulputate arcu.
+                                                Preencha o formulário de requerimento. Certifique-se de fornecer todas as informações necessárias de forma clara e completa.
                                                 </h5>
                                             </Box>
                                         </Grid>
@@ -329,7 +329,7 @@ export default function Credencial() {
                                                     Segunda Etapa
                                                 </h3>
                                                 <h5 className='regular black'>
-                                                    Lorem ipsum dolor sit amet consectetur. Adipiscing amet morbi bibendum senectus. Eget sed vulputate arcu.
+                                                Nesta etapa, nossos especialistas revisarão os documentos fornecidos para garantir que atendam aos requisitos mínimos e sejam aprovados.
                                                 </h5>
                                             </Box>
                                         </Grid>
@@ -339,7 +339,7 @@ export default function Credencial() {
                                                     Terceira Etapa
                                                 </h3>
                                                 <h5 className='regular black'>
-                                                    Lorem ipsum dolor sit amet consectetur. Adipiscing amet morbi bibendum senectus. Eget sed vulputate arcu.
+                                                Será realizado anlálises do processo do pedido, vistoria e análise laboratorial. Após cada análise, você receberá um laudo com o resultado.
                                                 </h5>
                                             </Box>
                                         </Grid>
@@ -349,7 +349,7 @@ export default function Credencial() {
                                                     Acesso Liberado
                                                 </h3>
                                                 <h5 className='regular'>
-                                                    Lorem ipsum dolor sit amet consectetur. Adipiscing amet morbi bibendum senectus. Eget sed vulputate arcu.
+                                                Após a conclusão bem-sucedida das etapas anteriores, sua solicitação será aprovada, e a credencial de produtor associado será emitida para a assinatura.
                                                 </h5>
                                             </Box>
                                         </Grid>

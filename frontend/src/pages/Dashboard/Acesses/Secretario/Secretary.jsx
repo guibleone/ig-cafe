@@ -124,7 +124,7 @@ export default function Secretary() {
                   Secretário
                 </h1>
                 <h5 className='black regular'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente at voluptatem beatae aut! Fugiat reprehenderit quasi ut nam, adipisci eaque et dolorem officia eveniet repudiandae! Inventore saepe expedita vero minus.
+                Como secretário, sua função abrange a criação da lista de presença e a integração diretamente na ata das reuniões. Assuma o controle da documentação essencial, facilitando a transparência e a eficiência no registro das atividades da ACECAP.
                 </h5>
               </Box>
               <button onClick={() => navigate('/meu-perfil')} className='button-red' style={{ width: '182px' }}>

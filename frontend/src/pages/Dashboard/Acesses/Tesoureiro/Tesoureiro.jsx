@@ -92,7 +92,7 @@ export default function Tesoureiro() {
                   Tesoureiro
                 </h1>
                 <h5 className='black regular'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente at voluptatem beatae aut! Fugiat reprehenderit quasi ut nam, adipisci eaque et dolorem officia eveniet repudiandae! Inventore saepe expedita vero minus.
+                Como tesoureiro, tenha o poder de gerenciar as finanças e adicionar balanços financeiros de forma direta. Sua contribuição é fundamental para manter a estabilidade econômica da APCCAP e garantir uma gestão transparente e responsável dos recursos.
                 </h5>
               </Box>
               <button onClick={() => window.location.href = 'https://dashboard.stripe.com/test/payments'} className='button-red' style={{ width: '222px' }}>

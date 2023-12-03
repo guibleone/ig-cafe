@@ -129,7 +129,7 @@ export default function Produtor() {
                     Produtor Não Associado
                   </h1>
                   <h5 className='regular black'>
-                    Lorem ipsum dolor sit amet consectetur. Adipiscing amet morbi bibendum senectus. Eget sed vulputate arcu.Lorem ipsum dolor sit amet consectetur. Adipiscing amet morbi bibendum senectus. Eget sed vulputate arcu.
+                  Como produtor, você tem o privilégio de solicitar produtos autenticados com selos de Indicação Geográfica (IG). Aproveite essa oportunidade exclusiva para agregar valor aos seus produtos e fortalecer ainda mais sua conexão com a ACECAP.
                   </h5>
                 </Box>
                 <button onClick={() => navigate('/credencial')} className='button-red' style={{ width: '182px' }}>
@@ -149,7 +149,7 @@ export default function Produtor() {
                     Produtor Associado
                   </h1>
                   <h5 className='regular black'>
-                    Lorem ipsum dolor sit amet consectetur. Adipiscing amet morbi bibendum senectus. Eget sed vulputate arcu.Lorem ipsum dolor sit amet consectetur. Adipiscing amet morbi bibendum senectus. Eget sed vulputate arcu.
+                  Como produtor associado, você tem o privilégio de solicitar produtos autenticados com selos de Indicação Geográfica (IG). Aproveite essa oportunidade exclusiva para agregar valor aos seus produtos e fortalecer ainda mais sua conexão com a ACECAP.
                   </h5>
                 </Box>
                   <button onClick={() => navigate('/credencial')} className='button-red' style={{ width: '182px' }}>

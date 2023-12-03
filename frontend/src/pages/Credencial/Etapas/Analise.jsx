@@ -95,7 +95,7 @@ export default function Analise() {
                     Análise
                 </h1>
                 <h5 className='regular black'>
-                    Lorem ipsum dolor sit amet consectetur. Adipiscing amet morbi bibendum senectus. Eget sed vulputate arcu.
+                Aguarde a análise do processo para a conclusão da solicitação.
                 </h5>
             </Box>
 

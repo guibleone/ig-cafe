@@ -105,7 +105,7 @@ export default function President() {
                   Presidente
                 </h1>
                 <h5 className='black regular'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente at voluptatem beatae aut! Fugiat reprehenderit quasi ut nam, adipisci eaque et dolorem officia eveniet repudiandae! Inventore saepe expedita vero minus.
+                Como presidente, desfrute de um controle completo: gerencie e convoque reuniões estratégicas, além de administrar facilmente a participação dos nossos valiosos produtores associados. Sua plataforma exclusiva para liderança eficaz na ACECAP.
                 </h5>
               </Box>
               <button onClick={() => navigate('/meu-perfil')} className='button-red' style={{ width: '182px' }}>

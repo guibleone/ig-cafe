@@ -326,7 +326,7 @@ function Register() {
                   Cadastro
                 </h1>
 
-                <p >
+                <p className='black' >
                   Para você que é um produtor, cumpre com os <br />
                   <Link to={'https://acecapcafe.com.br/artigos-3/'} style={{ color: '#C1051F', fontWeight: 700, textDecorationColor: '#C1051F' }} >requisitos</Link> e deseja utilizar nossos selos.
                 </p>

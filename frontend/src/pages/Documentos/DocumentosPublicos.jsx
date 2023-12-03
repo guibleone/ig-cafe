@@ -40,7 +40,7 @@ export default function DocumentosPublicos() {
                 Documentos
               </h1>
               <h5 className='regular black'>
-                Fique por dentro de todos os documentos da associação
+              Explore em detalhes todos os documentos essenciais da associação
               </h5>
             </Box>
 
@@ -71,7 +71,7 @@ export default function DocumentosPublicos() {
                   maxWidth: '500px',
 
                 }}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis nulla,ntur
+                 Receitas, despesas e investimentos, refletindo nosso compromisso com a prestação de contas.
                 </h4>
 
                 <TextField 
@@ -141,7 +141,7 @@ export default function DocumentosPublicos() {
                   maxWidth: '500px',
 
                 }}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis nulla,ntur
+                  Esteja por dentro dos detalhes das nossas reuniões, promovendo a comunicação aberta e participativa.
                 </h4>
 
                 <TextField 
@@ -216,7 +216,7 @@ export default function DocumentosPublicos() {
                   maxWidth: '500px',
 
                 }}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis nulla,ntur
+                 Nossos relatórios oferecem transparência e detalhes sobre a missão e objetivos da organização.
                 </h4>
                
                   <TextField 

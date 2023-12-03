@@ -150,7 +150,7 @@ function Documentos() {
                     Documentos
                 </h1>
                 <h5 className='regular black'>
-                    Lorem ipsum dolor sit amet consectetur. Adipiscing amet morbi bibendum senectus. Eget sed vulputate arcu.
+                Anexe, por favor, os documentos indispensáveis ao processo de solicitação.
                 </h5>
             </Box>
 

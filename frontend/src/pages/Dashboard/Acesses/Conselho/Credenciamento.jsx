@@ -86,7 +86,7 @@ export default function Credenciamento() {
 
                                     </Box>
 
-                                    <button onClick={() => navigate(`/analise-credencial/${user._id}`)} className='button-purple small' style={{ width: '100%' }}>
+                                    <button onClick={() => navigate(`/analise-credencial/${user._id}`)} className='button-red small' style={{ width: '100%' }}>
                                         Ver Dados
                                     </button>
                                 </Box>

@@ -60,7 +60,7 @@ export default function Formulario() {
                     Formulário
                 </h1>
                 <h5 className='regular black'>
-                    Lorem ipsum dolor sit amet consectetur. Adipiscing amet morbi bibendum senectus. Eget sed vulputate arcu.
+                Complete o formulário de requerimento fornecido, inserindo as informações solicitadas para facilitar a avaliação do seu pedido.
                 </h5>
             </Box>
             <button className='button-red' onClick={handleOpenForm}>

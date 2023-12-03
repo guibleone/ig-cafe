@@ -40,7 +40,7 @@ export default function Conselho() {
                                     Conselho Regulador
                                 </h1>
                                 <h5 className='black regular'>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente at voluptatem beatae aut! Fugiat reprehenderit quasi ut nam, adipisci eaque et dolorem officia eveniet repudiandae! Inventore saepe expedita vero minus.
+                                Como membro do Conselho Regulador, assuma a responsabilidade de gerenciar credenciais e avaliar pedidos de selos. Sua posição é crucial para manter os padrões elevados e garantir a qualidade que define a ACECAP.
                                 </h5>
                             </Box>
                             <button onClick={() => navigate('/meu-perfil')} className='button-red' style={{ width: '182px' }}>

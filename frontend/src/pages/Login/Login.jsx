@@ -98,7 +98,7 @@ function Login() {
             <Grid item xs={12} lg={12}>
               <div className="title">
                 <h1 className="red">Login</h1>
-                <p>
+                <p className="black">
                   Para você que é um produtor já associado {matches ? <br /> : null}
                   ou iniciou o processo de associação.
                 </p>
