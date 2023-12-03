@@ -50,7 +50,7 @@ function App() {
           <Route path={`/produtos`} element={<Products />} />
           <Route path={`/produto-cadastro`} element={<RegisterProduct />} />
           <Route path={`/produto/:id`} element={<SingleProduct />}/>
-          <Route path={`/rastreabilidade`} element={<Traceability />}/>
+         {/**  <Route path={`/rastreabilidade`} element={<Traceability />}/>*/}
           <Route path={`/credencial`} element={<Credencial />} />
           <Route path='/produtor/:id' element={<SingleProducer />} />
           <Route path='/analise-credencial/:id' element={<AnaliseCredencial />} />

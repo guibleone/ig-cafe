@@ -48,7 +48,7 @@ function Dashboard() {
     }
 
     if(!user){
-      navigate('/rastreabilidade')
+      navigate('/documentos')
     }
 
 

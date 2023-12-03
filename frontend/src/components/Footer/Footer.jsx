@@ -1,4 +1,4 @@
-import { AiFillFacebook as Facebook, AiFillInstagram as Instagram} from 'react-icons/ai'
+import { AiFillFacebook as Facebook, AiFillInstagram as Instagram } from 'react-icons/ai'
 import { Box, Grid, useMediaQuery } from '@mui/material'
 import { Link } from 'react-router-dom'
 import { RiTwitterXFill } from 'react-icons/ri'
@@ -46,12 +46,13 @@ function Footer() {
             <h3 className='white medium' style={{ paddingBottom: '10px' }}>
               Páginas
             </h3>
-
+            {/** 
             <div>
               <Link to="/rastreabilidade" variant="body2" color="inherit" style={{ textDecoration: 'none' }}>
                 <h5 className='white regular'>Rastreabilidade</h5>
               </Link>
             </div>
+            */}
 
             <div>
               <Link to="/documentos" variant="body2" color="inherit" style={{ textDecoration: 'none' }}>
@@ -110,19 +111,19 @@ function Footer() {
             <Box style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
               <h5 className='white regular'>
                 <a target="_blank" rel='noreferrer' href={`https://api.whatsapp.com/send?phone=551938924242`} style={{ color: colors.main_white, textDecoration: 'none' }}>
-                (19) 3892-4242
+                  (19) 3892-4242
                 </a>
               </h5>
 
               <h5 className='white regular'>
                 <a target="_blank" rel='noreferrer' href={'mailto:appcap@gmail.com'} style={{ color: colors.main_white, textDecoration: 'none' }}>
-                contato@acecapcafe.com.br
+                  contato@acecapcafe.com.br
                 </a>
               </h5>
 
               <h5 className='white regular'>
                 <a target="_blank" rel='noreferrer' href='https://www.google.com/maps/dir//Rua.José-Bonifácio,%20222-%20Centro,%20Serra%20Negra%20-%20SP,%2013930-000' style={{ color: colors.main_white, textDecoration: 'none' }}>
-                Rua José Bonifácio, 222, Centro – Serra Negra, SP <br />13930-000
+                  Rua José Bonifácio, 222, Centro – Serra Negra, SP <br />13930-000
                 </a>
               </h5>
 

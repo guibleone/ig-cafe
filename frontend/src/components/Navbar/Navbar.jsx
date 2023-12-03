@@ -591,13 +591,13 @@ function Navbar() {
       {(!user) && (
         <div className="navbar">
 
-          <Link className="logo" to='/rastreabilidade'>
+          <Link className="logo" to='/documentos'>
               <img src={require('../../imgs/logo_cafe.png')} alt="logo" style={{width: '100px'}}/>
           </Link>
 
           <div className="links-centrais">
 
-            <Link className="links" to="/rastreabilidade"><h4 className="medium">Rastreabilidade</h4></Link>
+           {/**  <Link className="links" to="/rastreabilidade"><h4 className="medium">Rastreabilidade</h4></Link>*/}
 
           
        

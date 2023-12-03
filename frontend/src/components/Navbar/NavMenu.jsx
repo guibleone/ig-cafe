@@ -105,8 +105,8 @@ function NavMenu() {
             }}>
                 <Toolbar>
 
-                    <Link style={{ flexGrow: 1,marginTop:'10px',marginLeft:'10px' }} className="logo" to='/'>
-                       <img src={require('../../imgs/logo_cafe_branco.png')} alt="logo" width="65px" />
+                    <Link style={{ flexGrow: 1, marginTop: '10px', marginLeft: '10px' }} className="logo" to='/'>
+                        <img src={require('../../imgs/logo_cafe_branco.png')} alt="logo" width="65px" />
                     </Link>
 
 
@@ -216,7 +216,7 @@ function NavMenu() {
                                 }
                             } to="/">Início</Link>
                         </ListItem>
-
+                        {/**
                         <ListItem >
                             <ListItemIcon>
                                 <TbSearch style={{ color: "#FAF8F8" }} h />
@@ -228,7 +228,8 @@ function NavMenu() {
                                 }
                             } to="/rastreabilidade">Rastreabilidade</Link>
                         </ListItem>
-                          
+                         */}
+
                         <ListItem >
                             <ListItemIcon>
                                 <IoDocumentsOutline style={{ color: "#FAF8F8" }} />
